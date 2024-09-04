@@ -1,0 +1,93 @@
+.tabs-container {
+    background-color: #3b3b3b;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px black;
+    position: relative;
+    height: 280px;
+  }
+  
+  .tabs-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+  }
+  
+  .icons-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-right: 15px; 
+  }
+  
+  .icon {
+    
+    color: rgb(92, 92, 92);
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-top: 20px; 
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin-left: 15px;
+    background-color: #0c0c0c;
+    height: 50px;
+    border-radius: 20px;
+  }
+  
+  .tab {
+    background-color: #0c0c0c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    flex-grow: 1;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+  }
+  
+  .tab.active {
+    background-color: #3d3d3d;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    box-shadow: 15px 20px 30px black;
+  }
+  
+  .right-line {
+    width: 10px;
+    height: 80px;
+    background-color: rgb(86, 101, 115);
+    background-image: linear-gradient(to top , rgb(33, 33, 33), rgb(114, 112, 112));
+    margin-left: 20px;
+    border-radius: 5px;
+    
+  }
+  
+
+  .tab-content {
+    margin-top: 20px;
+    color: #ccc;
+    line-height: 1.5;
+    font-size: 14px;
+    overflow-y: auto;
+    max-height: 150px;
+    padding-right: 10px;
+  }
+  
+  .tab-content::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .tab-content::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
